@@ -1,64 +1,52 @@
-# Uber-Data-Analysis-Project
 # 🚖 Uber Data Analysis Project
 
-This project explores Uber ride booking data to uncover patterns in user behavior based on time, purpose, category, and distance. The goal is to gain actionable insights using Python's data analysis tools.
+This project focuses on analyzing Uber ride data to discover meaningful business insights using Python. It explores patterns in ride categories, trip purposes, miles traveled, time and day trends, and more — all through data visualization and exploration.
 
 ---
 
 ## 📌 Project Objective
 
-To perform Exploratory Data Analysis (EDA) on Uber ride data and answer key business questions that help understand customer habits and optimize services.
+To perform Exploratory Data Analysis (EDA) on Uber ride booking data and uncover insights that can help businesses understand user behavior and optimize services.
 
 ---
 
-## 📊 Questions Answered
+## 📊 Key Business Questions
 
-1. Which category do people book Uber cabs the most?
-2. What is the most common purpose of booking a cab?
-3. On which day do people book cabs most frequently?
-4. At what time of day are most bookings made?
-5. How many miles do users typically book per ride?
-6. Which month has the highest frequency of Uber bookings?
-
----
-
-## 📁 Dataset Info
-
-- **Format**: CSV
-- **Attributes**: Start Date, End Date, Category, Purpose, Miles, Start & End Location, Time & Day features
-- Cleaned and preprocessed for analysis
+1. In which category do people book Uber cabs the most?
+2. For what purpose do people book cabs most often?
+3. On which day of the week are most rides booked?
+4. What time of day sees the most bookings?
+5. What is the most common range of miles booked per trip?
+6. In which month are Uber rides most frequent?
 
 ---
 
-## 🛠️ Tools & Libraries
+## 🧾 Dataset Information
 
-- Python (Jupyter Notebook)
-- Pandas, NumPy
-- Matplotlib, Seaborn
-
----
-
-## 📈 Key Insights
-
-- Most bookings are in the **Business** category
-- Common purpose: **Meeting**
-- **Thursday** has the highest number of bookings
-- Peak booking time: **3 PM to 5 PM**
-- Most trips are **short-range** (under 5 miles)
-- **February** and **December** show high ride frequencies
+- Format: `.csv`
+- Columns: `Start Date`, `End Date`, `Category`, `Purpose`, `Miles`, `Start`, `Stop`, `Start Day`, `Start Time`, etc.
+- Preprocessing: Extracted day, hour, and month from timestamps
 
 ---
 
-## 💡 Future Improvements
+## 🛠️ Tools & Technologies
 
-- Create dashboards using Streamlit
-- Use geolocation for mapping ride patterns
-- Predict high-demand times with ML models
+- **Language**: Python  
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn  
+- **Platform**: Jupyter Notebook  
+
+---
+
+## 📈 Summary of Insights
+
+- Most bookings are from the **Business** category  
+- The most common ride purpose is for **Meetings**  
+- **Thursday** is the most popular booking day  
+- **3 PM to 5 PM** is the busiest booking time  
+- Most trips are **short rides under 5 miles**  
+- Peak booking months: **February** and **December**
+
+---
 
 
 
-## 👨‍💻 Author
-
-**Mihir Kumar Panigrahi**  
-_Data Science | ML Enthusiast_  
-🔗 [GitHub](https://github.com/Mihir-techie)
